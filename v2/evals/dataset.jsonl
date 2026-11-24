@@ -1,0 +1,24 @@
+{"id": "q01", "question": "입사 2년 차인데 연차가 며칠 나와?", "expected_answer": "1년 이상 3년 미만은 연 11일", "expected_source": "vacation_policy.md"}
+{"id": "q02", "question": "오전 반차를 쓰면 연차 며칠이 차감돼?", "expected_answer": "반차는 연차 0.5일 차감", "expected_source": "vacation_policy.md"}
+{"id": "q03", "question": "쓰지 않은 연차는 언제까지 이월할 수 있어?", "expected_answer": "다음 해 3월 31일까지", "expected_source": "vacation_policy.md"}
+{"id": "q04", "question": "가족 돌봄 때문에 쉬어야 하는데 유급이야?", "expected_answer": "가족돌봄휴가는 연 10일 범위에서 유급", "expected_source": "vacation_policy.md"}
+{"id": "q05", "question": "주 3일 재택근무 가능한가?", "expected_answer": "주 2회까지 가능, 팀 리더 승인 필요", "expected_source": "vacation_policy.md"}
+{"id": "q06", "question": "우리 Git 브랜치 전략이 뭐야?", "expected_answer": "GitHub Flow — main/feature/hotfix 브랜치", "expected_source": "dev_environment.md"}
+{"id": "q07", "question": "커밋 메시지 규칙이 있나요?", "expected_answer": "Conventional Commits — feat/fix/docs 등 접두사", "expected_source": "dev_environment.md"}
+{"id": "q08", "question": "실시간 소통은 어떤 도구를 써?", "expected_answer": "Slack — #general, #dev, #random 채널", "expected_source": "dev_environment.md"}
+{"id": "q09", "question": "로컬 개발환경을 어떻게 띄워?", "expected_answer": "docker compose up -d + pnpm install + pnpm dev", "expected_source": "dev_environment.md"}
+{"id": "q10", "question": "PR 머지에 필요한 조건이 뭐야?", "expected_answer": "최소 1명 승인 + CI 통과", "expected_source": "dev_environment.md"}
+{"id": "q11", "question": "비밀번호 최소 길이가 어떻게 돼?", "expected_answer": "12자 이상, 대소문자+숫자+특수문자", "expected_source": "security_policy.md"}
+{"id": "q12", "question": "보안 사고가 의심되면 누구에게 연락해?", "expected_answer": "IT 보안팀 security@company.com 또는 내선 4000", "expected_source": "security_policy.md"}
+{"id": "q13", "question": "데이터 분류 단계가 어떻게 돼?", "expected_answer": "공개/내부/기밀 3단계", "expected_source": "security_policy.md"}
+{"id": "q14", "question": "AWS S3 버킷 보안 설정은?", "expected_answer": "퍼블릭 접근 차단 + CloudTrail 로깅 활성화", "expected_source": "security_policy.md"}
+{"id": "q15", "question": "SmartMonitor Pro 가격이 어떻게 돼?", "expected_answer": "Basic $29/월, Pro $99/월, Enterprise 별도 문의", "expected_source": "product_guide.md"}
+{"id": "q16", "question": "이상 징후를 자동으로 감지하는 기능이 있어?", "expected_answer": "이상 탐지(Anomaly Detection) 알림 — 머신러닝 기반", "expected_source": "product_guide.md"}
+{"id": "q17", "question": "모니터링 리포트를 자동으로 받을 수 있어?", "expected_answer": "매일/매주/매월 자동 생성, PDF/CSV 내보내기, 예약 발송", "expected_source": "product_guide.md"}
+{"id": "q18", "question": "무료 체험 기간이 얼마나 돼?", "expected_answer": "14일 무료 체험, 연간 결제 시 20% 할인", "expected_source": "product_guide.md"}
+{"id": "q19", "question": "입사 첫 주에 꼭 해야 할 일이 뭐야?", "expected_answer": "서류 제출, 계정 발급, 사원증, 1:1 미팅, 개발환경 세팅", "expected_source": "onboarding.md"}
+{"id": "q20", "question": "IT 지원팀 연락처가 뭐야?", "expected_answer": "it-help@company.com 또는 내선 2000", "expected_source": "onboarding.md"}
+{"id": "q21", "question": "점심 식대 지원이 돼?", "expected_answer": "월 15만원 식대 지원", "expected_source": "onboarding.md"}
+{"id": "q22", "question": "금요일 오후에 회의 있어도 돼?", "expected_answer": "금요일 오후는 No Meeting 시간", "expected_source": "onboarding.md"}
+{"id": "q23", "question": "API 인증 토큰은 어떻게 발급받아?", "expected_answer": "POST /auth/token에 client_id와 client_secret 전송", "expected_source": "api_guide.md"}
+{"id": "q24", "question": "API 요청 한도는 어떻게 돼?", "expected_answer": "분당 1000회, 초과 시 429 + Retry-After 헤더", "expected_source": "api_guide.md"}

@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 프로젝트 생성 산출물
+chroma_db/
+reports/
+*.sqlite3
+*.db

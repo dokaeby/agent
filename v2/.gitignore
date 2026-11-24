@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 로컬 데이터/상태 (재생성 가능)
+chroma_db/
+bm25_index.pkl
+checkpoints.db
+longterm_memory.db
+traces/
+
+# 환경변수
+.env

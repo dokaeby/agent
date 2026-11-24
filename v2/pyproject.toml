@@ -1,0 +1,35 @@
+[project]
+name = "rag-agent-v2"
+version = "0.1.0"
+description = "LangGraph 기반 RAG 에이전트 — 청킹/하이브리드 검색/메모리/HITL/평가"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.50",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "langgraph>=0.2.60",
+    "langgraph-checkpoint-sqlite>=2.0",
+    "chromadb>=0.5",
+    "rank_bm25>=0.2.2",
+    "numpy>=1.26",
+    "tzdata>=2024.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.6",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
